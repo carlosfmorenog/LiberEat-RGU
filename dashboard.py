@@ -660,8 +660,8 @@ app.layout = html.Div([
 			dcc.Dropdown(
 				id = 'i_dropdown',
 				options = [
-					{'label': u'Location (venue ID 31)', 'value': '31'},
-					{'label': u'Menu (menu ID 32)', 'value': '32'},
+					{'label': u'Location', 'value': '31'},
+					{'label': u'Menu', 'value': '32'},
 				],
 				placeholder = "Loc / Menu",
 				value = ' ',
